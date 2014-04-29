@@ -13,11 +13,11 @@ tail -n 40 -f $1 | awk '
 
 alias e=emacsclient
 alias emacs=/Applications/Emacs.app/Contents/MacOS/Emacs
-alias ea='emacsclient ~/.aliases'
+alias ea='emacsclient ~/.oh-my-zsh/custom/aliases.zsh'
 alias ez='emacsclient ~/.zshrc'
 
 alias la='ls -laF'
 alias ll='ls -lF'
 
-alias sa='source ~/.aliases'
+alias sa='source ~/.oh-my-zsh/custom/aliases.zsh'
 alias sz='source ~/.zshrc'
