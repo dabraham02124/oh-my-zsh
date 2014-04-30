@@ -22,4 +22,4 @@ alias ll='ls -lF'
 alias sa='source ~/.oh-my-zsh/custom/aliases.zsh'
 alias sz='source ~/.zshrc'
 
-source ~/.aliases
+source ~/.aliases &> /dev/null
